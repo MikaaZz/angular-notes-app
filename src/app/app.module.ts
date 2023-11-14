@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CreateComponent } from './components/thinkings/create/create.component';
 import { FormsModule } from '@angular/forms';
 import { ListNotesComponent } from './components/thinkings/list-notes/list-notes.component';
+import { ThinkingComponent } from './components/thinkings/thinking/thinking.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ListNotesComponent } from './components/thinkings/list-notes/list-notes
     FooterComponent,
     CreateComponent,
     ListNotesComponent,
+    ThinkingComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

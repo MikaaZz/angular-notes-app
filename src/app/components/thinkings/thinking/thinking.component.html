@@ -1,0 +1,18 @@
+<div
+  class="pensamento {{ think.model }} ff-roboto-mono"
+  [ngClass]="noteWidth()"
+>
+  <img src="/assets/imagens/{{ think.model }}.png" alt="Aspas coloridas" />
+  <p class="conteudo">{{ think.content }}</p>
+  <p class="autoria">
+    <b>{{ think.category }}</b>
+  </p>
+  <div class="acoes">
+    <button class="botao-editar">
+      <img src="/assets/imagens/icone-editar.png" alt="Ícone de editar" />
+    </button>
+    <button class="botao-excluir">
+      <img src="/assets/imagens/icone-excluir.png" alt="Ícone de excluir" />
+    </button>
+  </div>
+</div>
